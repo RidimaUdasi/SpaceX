@@ -1,0 +1,41 @@
+.mainDiv {
+    display:flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.mainDiv ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+}
+
+.mainDiv ul li {
+    width: 400px;
+    padding: 30px;
+    flex-basis: 33.333333%;
+}
+
+.title {
+    background-color: black;
+    font-weight: bold;
+    font-family: monospace;
+    padding-left: 30px ;
+    font-size: 100px;
+}
+
+.titleText {
+    background-image: linear-gradient(35deg, rgb(202, 195, 195), black);
+    background-size: 80%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin-bottom: 0rem;
+    font-size: 85px;
+}
+
+.cardLink:hover {
+    text-decoration: none;
+}
