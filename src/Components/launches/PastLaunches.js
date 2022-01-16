@@ -32,7 +32,7 @@ const PastLaunches = () => {
                             details = {item.details}
                             key={key}
                             id={item.id}
-                            fullInfo={item}/> 
+                            fullInfo={JSON.stringify(item)}/> 
                         </Link>
                     </li>
                             

@@ -24,6 +24,9 @@ const Card = (props) => {
 
     const clickHandler = () => {
         console.log("from card" + props.fullInfo);
+        if(sessionStorage.getItem('launchDetails')) {
+            sessionStorage.removeItem('launchDetails')
+        }
         sessionStorage.setItem('launchDetails', props.fullInfo);
     }
 
